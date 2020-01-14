@@ -1,0 +1,4 @@
+#Sat Jan 06 14:08:38 PST 2018
+base.0=C\:\\Users\\Linka\\StudioProjects\\AlDrawAndroid\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\9
+path.0=classes.dex
+renamed.0=classes.dex

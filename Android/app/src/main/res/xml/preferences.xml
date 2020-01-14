@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:strinka="strinka" >
+    <strinka.aldrawandroid.SeekBarPreference
+        android:key="pref_dot_radius_int"
+        android:title="@string/dotradius"
+        android:defaultValue="14"
+        android:max="28"
+        strinka:min="4"
+        strinka:units="px"/>
+	<strinka.aldrawandroid.SeekBarPreference
+        android:key="pref_line_width_int"
+        android:title="@string/linewidth"
+        android:defaultValue="6"
+        android:max="20"
+        strinka:min="0"
+        strinka:units="px"/>
+</PreferenceScreen>

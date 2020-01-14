@@ -1,0 +1,66 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="strinka.aldrawandroid"
+4    android:versionCode="10"
+5    android:versionName="1.5.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="14"
+8-->C:\Users\Linka\Programs\AlDrawAndroid\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->C:\Users\Linka\Programs\AlDrawAndroid\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+11-->C:\Users\Linka\Programs\AlDrawAndroid\app\src\main\AndroidManifest.xml:6:5-80
+11-->C:\Users\Linka\Programs\AlDrawAndroid\app\src\main\AndroidManifest.xml:6:22-78
+12    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+12-->C:\Users\Linka\Programs\AlDrawAndroid\app\src\main\AndroidManifest.xml:7:5-79
+12-->C:\Users\Linka\Programs\AlDrawAndroid\app\src\main\AndroidManifest.xml:7:22-77
+13
+14    <application
+14-->C:\Users\Linka\Programs\AlDrawAndroid\app\src\main\AndroidManifest.xml:9:5-31:19
+15        android:allowBackup="true"
+15-->C:\Users\Linka\Programs\AlDrawAndroid\app\src\main\AndroidManifest.xml:13:9-35
+16        android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
+16-->[com.android.support:support-compat:28.0.0] C:\Users\Linka\.gradle\caches\transforms-2\files-2.1\dd1cf78f22bdd94f550130b281f27c97\support-compat-28.0.0\AndroidManifest.xml:22:18-91
+17        android:icon="@drawable/ic_launcher"
+17-->C:\Users\Linka\Programs\AlDrawAndroid\app\src\main\AndroidManifest.xml:10:9-45
+18        android:label="@string/app_name"
+18-->C:\Users\Linka\Programs\AlDrawAndroid\app\src\main\AndroidManifest.xml:11:9-41
+19        android:theme="@style/AppTheme" >
+19-->C:\Users\Linka\Programs\AlDrawAndroid\app\src\main\AndroidManifest.xml:12:9-40
+20        <activity
+20-->C:\Users\Linka\Programs\AlDrawAndroid\app\src\main\AndroidManifest.xml:14:9-23:20
+21            android:name="strinka.aldrawandroid.MainActivity"
+21-->C:\Users\Linka\Programs\AlDrawAndroid\app\src\main\AndroidManifest.xml:15:13-41
+22            android:label="@string/title_activity_main"
+22-->C:\Users\Linka\Programs\AlDrawAndroid\app\src\main\AndroidManifest.xml:16:13-56
+23            android:screenOrientation="portrait" >
+23-->C:\Users\Linka\Programs\AlDrawAndroid\app\src\main\AndroidManifest.xml:17:13-49
+24            <intent-filter>
+24-->C:\Users\Linka\Programs\AlDrawAndroid\app\src\main\AndroidManifest.xml:18:13-22:29
+25                <action android:name="android.intent.action.MAIN" />
+25-->C:\Users\Linka\Programs\AlDrawAndroid\app\src\main\AndroidManifest.xml:19:17-69
+25-->C:\Users\Linka\Programs\AlDrawAndroid\app\src\main\AndroidManifest.xml:19:25-66
+26
+27                <category android:name="android.intent.category.LAUNCHER" />
+27-->C:\Users\Linka\Programs\AlDrawAndroid\app\src\main\AndroidManifest.xml:21:17-77
+27-->C:\Users\Linka\Programs\AlDrawAndroid\app\src\main\AndroidManifest.xml:21:27-74
+28            </intent-filter>
+29        </activity>
+30        <activity
+30-->C:\Users\Linka\Programs\AlDrawAndroid\app\src\main\AndroidManifest.xml:24:9-30:20
+31            android:name="strinka.aldrawandroid.SettingsActivity"
+31-->C:\Users\Linka\Programs\AlDrawAndroid\app\src\main\AndroidManifest.xml:25:13-45
+32            android:label="@string/title_activity_settings" >
+32-->C:\Users\Linka\Programs\AlDrawAndroid\app\src\main\AndroidManifest.xml:26:13-60
+33            <meta-data
+33-->C:\Users\Linka\Programs\AlDrawAndroid\app\src\main\AndroidManifest.xml:27:13-29:70
+34                android:name="android.support.PARENT_ACTIVITY"
+34-->C:\Users\Linka\Programs\AlDrawAndroid\app\src\main\AndroidManifest.xml:28:17-63
+35                android:value="strinka.aldrawandroid.MainActivity" />
+35-->C:\Users\Linka\Programs\AlDrawAndroid\app\src\main\AndroidManifest.xml:29:17-67
+36        </activity>
+37    </application>
+38
+39</manifest>

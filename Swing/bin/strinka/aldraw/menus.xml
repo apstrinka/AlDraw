@@ -1,0 +1,87 @@
+<?xml version="1.0"?>
+<menulist>
+	<menu name="File">
+		<menuitem name="New" hotkey="control N"/>
+		<menuitem name="Open" hotkey="control O"/>
+		<menuitem name="Save" hotkey="control S"/>
+		<menu name="Export as...">
+			<menuitem name="SVG" hotkey="alt S"/>
+			<menuitem name="PNG" hotkey="alt control S"/>
+		</menu>
+		<menuitem name="Print" hotkey="control P"/>
+		<menuitem name="Close" hotkey="control W"/>
+	</menu>
+	<menu name="Edit">
+		<menuitem name="Undo" hotkey="control Z"/>
+		<menuitem name="Redo" hotkey="shift control Z"/>
+		<menu name="Select">
+			<menuitem name="Select Segment" hotkey="shift control 1" class="strinka.aldraw.SelectSegmentInputStrategy"/>
+			<menuitem name="Select Ray" hotkey="shift control 2" class="strinka.aldraw.SelectRayInputStrategy"/>
+			<menuitem name="Select Line" hotkey="shift control 3" class="strinka.aldraw.SelectLineInputStrategy"/>
+			<menuitem name="Select Arc" hotkey="shift control 4" class="strinka.aldraw.SelectArcInputStrategy"/>
+			<menuitem name="Select Circle" hotkey="shift control 5" class="strinka.aldraw.SelectCircleInputStrategy"/>
+			<menuitem name="Select Point" hotkey="shift control 6" class="strinka.aldraw.SelectPointInputStrategy"/>
+			<menuitem name="Clear Selections" hotkey="shift control 0"/>
+		</menu>
+		<menuitem name="Copy" hotkey="control C" class="strinka.aldraw.CopyInputStrategy"/>
+		<menuitem name="Paste" hotkey="control V" class="strinka.aldraw.PasteInputStrategy"/>
+		<separator/>
+		<menuitem name="Preferences" hotkey="control COMMA"/>
+	</menu>
+	<menu name="View">
+		<menuitem name="Default View" hotkey="shift EQUALS"/>
+		<menuitem name="Auto Zoom" hotkey="shift MINUS"/>
+		<menu name="Zoom">
+			<menuitem name="Zoom In" hotkey="EQUALS"/>
+			<menuitem name="Zoom Out" hotkey="MINUS"/>
+		</menu>
+		<menu name="Pan">
+			<menuitem name="Free Pan" hotkey="contrl 0" class="strinka.aldraw.FreePanInputStrategy"/>
+			<menuitem name="Pan Left" hotkey="LEFT"/>
+			<menuitem name="Pan Right" hotkey="RIGHT"/>
+			<menuitem name="Pan Up" hotkey="UP"/>
+			<menuitem name="Pan Down" hotkey="DOWN"/>
+		</menu>
+		<menu name="Rotate">
+			<menuitem name="Free Rotate" hotkey="alt 0" class="strinka.aldraw.FreeRotateInputStrategy"/>
+			<menuitem name="Clockwise 15 deg" hotkey="alt RIGHT"/>
+			<menuitem name="Counterclockwise 15 deg" hotkey="alt LEFT"/>
+			<menuitem name="Default Rotation" hotkey="alt EQUALS"/>
+		</menu>
+	</menu>
+	<menu name="Basic">
+		<menuitem name="Draw Segment" hotkey="1" class="strinka.aldraw.DrawSegmentInputStrategy"/>
+		<menuitem name="Draw Ray" hotkey="2" class="strinka.aldraw.DrawRayInputStrategy"/>
+		<menuitem name="Draw Line" hotkey="3" class="strinka.aldraw.DrawLineInputStrategy"/>
+		<menuitem name="Draw Arc" hotkey="4" class="strinka.aldraw.DrawArcInputStrategy"/>
+		<menuitem name="Draw Circle" hotkey="5" class="strinka.aldraw.DrawCircleInputStrategy"/>
+	</menu>
+	<menu name="Extended">
+		<menuitem name="Set Mark Distance" hotkey="control 1" class="strinka.aldraw.SetMarkInputStrategy"/>
+		<menuitem name="Draw Mark Line" hotkey="control 2" class="strinka.aldraw.MarkSegmentInputStrategy"/>
+		<menuitem name="Draw Mark Circle" hotkey="control 3" class="strinka.aldraw.MarkCircleInputStrategy"/>
+		<menuitem name="Random" hotkey="control R"/>
+	</menu>
+	<menu name="Shortcuts">
+		<menuitem name="Midpoint" hotkey="alt 1" class="strinka.aldraw.FindMidpointInputStrategy"/>
+		<menuitem name="Trisect Line" hotkey="alt 2" class="strinka.aldraw.TrisectLineInputStrategy"/>
+		<menuitem name="Perpendicular Bisector" hotkey="alt 3" class="strinka.aldraw.PerpendicularBisectorInputStrategy"/>
+		<menuitem name="Tangent Line" hotkey="alt 4" class="strinka.aldraw.TangentLineInputStrategy"/>
+		<menuitem name="Parallel Line" hotkey="alt 5" class="strinka.aldraw.ParallelLineInputStrategy"/>
+		<menuitem name="Circumscribe Triangle" hotkey="alt 6" class="strinka.aldraw.CircumscribeTriangleInputStrategy"/>
+	</menu>
+	<menu name="Clean Up">
+		<menuitem name="Delete Segment" hotkey="shift 1" class="strinka.aldraw.DeleteSegmentInputStrategy"/>
+		<menuitem name="Delete Ray" hotkey="shift 2" class="strinka.aldraw.DeleteRayInputStrategy"/>
+		<menuitem name="Delete Line" hotkey="shift 3" class="strinka.aldraw.DeleteLineInputStrategy"/>
+		<menuitem name="Delete Arc" hotkey="shift 4" class="strinka.aldraw.DeleteArcInputStrategy"/>
+		<menuitem name="Delete Circle" hotkey="shift 5" class="strinka.aldraw.DeleteCircleInputStrategy"/>
+		<menuitem name="Delete Point" hotkey="shift 6" class="strinka.aldraw.DeletePointInputStrategy"/>
+	</menu>
+	<menu name="Color">
+		<menuitem name="Select Color" hotkey="control F"/>
+		<menuitem name="Fill Color" hotkey="F" class="strinka.aldraw.FillColorInputStrategy"/>
+		<menuitem name="Erase Color" hotkey="shift F" class="strinka.aldraw.EraseColorInputStrategy"/>
+		<menuitem name="Pick Color" hotkey="P" class="strinka.aldraw.PickColorInputStrategy"/>
+	</menu>
+</menulist>
